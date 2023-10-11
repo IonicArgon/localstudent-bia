@@ -1,0 +1,9 @@
+# configuration for playwright scraper
+
+[config]
+urls = [
+    "https://www.toronto.ca/business-economy/business-operation-growth/business-improvement-areas/bia-list/bia-list-a-e/",
+    "https://www.toronto.ca/business-economy/business-operation-growth/business-improvement-areas/bia-list/bia-list-f-p/",
+    "https://www.toronto.ca/business-economy/business-operation-growth/business-improvement-areas/bia-list/bia-list-q-y/"
+]
+output_file = "toronto_bia.xlsx"
